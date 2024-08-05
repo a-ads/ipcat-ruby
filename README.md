@@ -11,13 +11,7 @@ With bundler:
 
 ```ruby
 # In Gemfile
-gem 'ipcat'
-```
-
-Or with rubygems:
-
-```shell
-gem install ipcat
+gem 'ipcat', git: 'https://github.com/joewils/ipcat-ruby', branch: 'main'
 ```
 
 ## Usage
