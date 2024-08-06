@@ -58,7 +58,7 @@ namespace :data do
 
   desc 'Update git submodules'
   task :update do
-    sh %{git submodule update}
+    sh %{git submodule update --remote}
   end
 end
 

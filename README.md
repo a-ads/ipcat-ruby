@@ -31,6 +31,13 @@ range.name # => 'Amazon AWS'
 IPCat.datacenter?('127.0.0.1') # => nil
 ```
 
+## Update IPCat
+
+``` 
+git submodule update --remote
+rake data:generate
+```
+
 ## License
 
 Copyright (c) 2013 Kickstarter, Inc
